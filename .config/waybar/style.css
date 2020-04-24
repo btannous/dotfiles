@@ -1,0 +1,69 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "MesloLGS Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+    color: #ebdbb2;
+}
+
+
+window#waybar {
+    border-bottom: 5px solid #689d6a;
+    background: #1d2021;
+}
+
+#workspaces button {
+}
+
+#workspaces button.focused {
+    background: #689d6a; 
+    color: #1d2021;
+}
+
+#mode {
+    background-color: #cc241d;
+    color: white;
+}
+
+#clock, #battery, #cpu, #backlight, #memory, #network, #pulseaudio, #tray, #mode, #idle_inhibitor {
+    padding: 0 4px;
+    margin: 0 6px;
+}
+
+#idle_inhibitor {
+    padding: 0 12px;
+}
+
+#idle_inhibitor.activated {
+    background-color: #689d6a;
+    color: #1d2021;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    color: #cc241d;
+    border-bottom: 5px solid #cc241d;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+    padding: 0 15px;
+    color: #cc241d;
+    border-bottom: 5px solid #cc241d;
+}
+
+
+#tray {
+}
+

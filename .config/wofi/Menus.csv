@@ -1,0 +1,8 @@
+Font Awesome Icons,fontawesome_menu
+Search Privacytool.io,web_searx
+Web Search,web_search
+Power Menu,"wofi_csv Power"
+ThinkPad Menu,"wofi_csv ThinkPad"
+BitWarden Passwords,"bwmenu -- -columns 2"
+Window Switcher,swytch
+Applications Menu,"wofi -show drun"
