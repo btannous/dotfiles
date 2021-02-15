@@ -8,7 +8,7 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 " Add other plugins here.
 call minpac#add('vim-jp/syntax-vim-ex')
-call minpac#add('morhetz/gruvbox')
+" call minpac#add('morhetz/gruvbox')
 call minpac#add('tpope/vim-sensible')
 
 " Gruvbox
@@ -17,4 +17,4 @@ let g:gruvbox_invert_tabline = '1'
 
 " Real colors
 set termguicolors
-autocmd vimenter * colorscheme gruvbox
+" autocmd vimenter * colorscheme gruvbox
